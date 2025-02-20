@@ -13,7 +13,7 @@ For many of these tasks, there are additional packages available that can help (
 *Note*: The `csv` module is not necessary for the csv portions but you can use the example from class if you like.
 
 ## **Dataset Description**
-- **`stations.txt`**: this file contains a list of `station_ids` separated by `|`. They are **NOT** necessarily distinct.
+- **`stations.txt`**: this file contains a list of `station_ids` separated by `,`s. They are **NOT** necessarily distinct.
 - A directory named **`January Files/`** contains a number of documents:
     - **a number of `.csv` files**: These are in the format these contain one line for each ride that *began* at that station.
     - **a number of `.png` files**: these contain visualizations of *some* of the data files received. Your collegue has made these by hand before you joined the project.
