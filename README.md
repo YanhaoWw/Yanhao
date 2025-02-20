@@ -30,8 +30,8 @@ In this section, we'll take stock of all the data we've received and make a repo
 - If you need an example of how to read in a file with delimiters, check out the Exercise from **Lecture 3.2**.
 - Calculate the number of distinct stations. **HINT**: Remember, your coworker was not necessarily careful about avoiding duplicates.
 
-#### **A.2. Count the number of each file type provided** [3 points]
-- Calculate the number of `.csv`, `.png` and `.pdf` files respectively.
+#### **A.2. Count the number of each file type provided for January** [3 points]
+- Calculate the number of `.csv`, `.png` and `.pdf` files respectively in `January Files/`.
 
 #### **A.3. Create a report of your findings** [10 points]
 - Create a new file named `file_report_counts.csv`
