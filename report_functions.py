@@ -17,17 +17,10 @@ def rides_histogram(input_path: str|Path, save_path: str|Path, display=False) ->
     try:
         temp = pd.read_csv(input_path)
         if set(temp.columns) != set(COLUMNS):
-            raise "Columns don't match expected column set!"
+            raise ValueError("Columns don't match expected column set!")
     except Exception as e:
         print(f'File {input_path} failed: {e}')
         return
-    
-    # Confirm there is only one station name
-    # assert temp['start_station_name'].value_counts().shape[0] == 0
-
-    #if temp.shape[0] > 0:
-        #print(f'{f}: {temp.shape[0]}')
-        #return temp
     
     if temp.shape[0] ==  0:
         title_x = "No Data Found"
