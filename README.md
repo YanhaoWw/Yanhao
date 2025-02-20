@@ -56,6 +56,10 @@ You will need to hang on to the script to use as a module import into later part
 #### **B.1. Identify Missing `.csv` Files [2 points]**
 - Each `station_id` should also have a corresponding `trips_[station_id]_202501.csv` file.
 - Write a function `identify_missing`, that counts and `returns` the number of `.csv` files that are missing.
+- Your function should take in two arguments: 
+    - `station_ids`: (a string list specifying your distinct `station_id`s, most likely generated in **A.1**)
+    - `files_path`: (a path to the directory you want to search . In this case, it will most likely be `January Files/`)
+- Run your function and test the result.
 
 #### **B.2. Calculate the share of each type that is missing [3 points]**
 - Figure out the "*coverage*" (share of total missing) for each file.
