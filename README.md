@@ -1,10 +1,3 @@
----
-layout: page
-title:  Assignment 1 (Due Feb 25th)
-parent: Assignments
-nav_order: 1
-published: True
----
 
 **Due: Feb 25th, 2025**
 
